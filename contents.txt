@@ -1,0 +1,130 @@
+ncdump -h MERRA2_c180.const_2d_asm_CSx.20170101_0300z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float AREA(time, nf, Ydim, Xdim) ;
+	float FRLAKE(time, nf, Ydim, Xdim) ;
+	float FRLAND(time, nf, Ydim, Xdim) ;
+	float FRLANDICE(time, nf, Ydim, Xdim) ;
+	float FROCEAN(time, nf, Ydim, Xdim) ;
+	float PHIS(time, nf, Ydim, Xdim) ;
+	float SGH(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.inst1_3d_asm_CSv.20170101_0000z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float PS(time, nf, Ydim, Xdim) ;
+	float QV(time, lev, nf, Ydim, Xdim) ;
+	float T(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_2d_chm_CSx.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float LWI(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_2d_flx_CSx.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float CDM(time, nf, Ydim, Xdim) ;
+	float CN(time, nf, Ydim, Xdim) ;
+	float EFLUX(time, nf, Ydim, Xdim) ;
+	float EVAP(time, nf, Ydim, Xdim) ;
+	float FRSEAICE(time, nf, Ydim, Xdim) ;
+	float HFLUX(time, nf, Ydim, Xdim) ;
+	float HLML(time, nf, Ydim, Xdim) ;
+	float PBLH(time, nf, Ydim, Xdim) ;
+	float PRECANV(time, nf, Ydim, Xdim) ;
+	float PRECCON(time, nf, Ydim, Xdim) ;
+	float PRECLSC(time, nf, Ydim, Xdim) ;
+	float PRECSNO(time, nf, Ydim, Xdim) ;
+	float PRECTOT(time, nf, Ydim, Xdim) ;
+	float RHOA(time, nf, Ydim, Xdim) ;
+	float USTAR(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_2d_lnd_CSx.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float FRSNO(time, nf, Ydim, Xdim) ;
+	float GRN(time, nf, Ydim, Xdim) ;
+	float GWETROOT(time, nf, Ydim, Xdim) ;
+	float GWETTOP(time, nf, Ydim, Xdim) ;
+	float LAI(time, nf, Ydim, Xdim) ;
+	float PARDF(time, nf, Ydim, Xdim) ;
+	float PARDR(time, nf, Ydim, Xdim) ;
+	float SNODP(time, nf, Ydim, Xdim) ;
+	float SNOMAS(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_2d_rad_CSx.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float ALBEDO(time, nf, Ydim, Xdim) ;
+	float ALBVISDF(time, nf, Ydim, Xdim) ;
+	float CLDTOT(time, nf, Ydim, Xdim) ;
+	float LWGNT(time, nf, Ydim, Xdim) ;
+	float LWTUP(time, nf, Ydim, Xdim) ;
+	float SWGDN(time, nf, Ydim, Xdim) ;
+	float SWGNT(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_2d_slv_CSx.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float PS(time, nf, Ydim, Xdim) ;
+	float SLP(time, nf, Ydim, Xdim) ;
+	float TROPPB(time, nf, Ydim, Xdim) ;
+	float TROPPT(time, nf, Ydim, Xdim) ;
+	float TS(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_asm_CSv.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float CLOUD(time, lev, nf, Ydim, Xdim) ;
+	float DELP(time, lev, nf, Ydim, Xdim) ;
+	float EPV(time, lev, nf, Ydim, Xdim) ;
+	float OMEGA(time, lev, nf, Ydim, Xdim) ;
+	float PHIS(time, nf, Ydim, Xdim) ;
+	float PS(time, nf, Ydim, Xdim) ;
+	float QI(time, lev, nf, Ydim, Xdim) ;
+	float QL(time, lev, nf, Ydim, Xdim) ;
+	float QV(time, lev, nf, Ydim, Xdim) ;
+	float RH(time, lev, nf, Ydim, Xdim) ;
+	float SLP(time, nf, Ydim, Xdim) ;
+	float T(time, lev, nf, Ydim, Xdim) ;
+	float U(time, lev, nf, Ydim, Xdim) ;
+	float V(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_cld_CSv.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float DELP(time, lev, nf, Ydim, Xdim) ;
+	float DTRAIN(time, lev, nf, Ydim, Xdim) ;
+	float PS(time, nf, Ydim, Xdim) ;
+	float QCCU(time, lev, nf, Ydim, Xdim) ;
+	float QIAN(time, lev, nf, Ydim, Xdim) ;
+	float QILS(time, lev, nf, Ydim, Xdim) ;
+	float QLAN(time, lev, nf, Ydim, Xdim) ;
+	float QLLS(time, lev, nf, Ydim, Xdim) ;
+	float RH(time, lev, nf, Ydim, Xdim) ;
+	float TAUCLI(time, lev, nf, Ydim, Xdim) ;
+	float TAUCLW(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_ctm_CSv.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float CX(time, lev, nf, Ydim, Xdim) ;
+	float CY(time, lev, nf, Ydim, Xdim) ;
+	float DELP(time, lev, nf, Ydim, Xdim) ;
+	float MFX(time, lev, nf, Ydim, Xdim) ;
+	float MFY(time, lev, nf, Ydim, Xdim) ;
+	float PS(time, nf, Ydim, Xdim) ;
+	float Q(time, lev, nf, Ydim, Xdim) ;
+	float UA(time, lev, nf, Ydim, Xdim) ;
+	float VA(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_mst_CSe.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float CMFMC(time, lev, nf, Ydim, Xdim) ;
+	float PFICU(time, lev, nf, Ydim, Xdim) ;
+	float PFILSAN(time, lev, nf, Ydim, Xdim) ;
+	float PFLCU(time, lev, nf, Ydim, Xdim) ;
+	float PFLLSAN(time, lev, nf, Ydim, Xdim) ;
+	float PLE(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_mst_CSv.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float DELP(time, lev, nf, Ydim, Xdim) ;
+	float DQRCU(time, lev, nf, Ydim, Xdim) ;
+	float DQRLSAN(time, lev, nf, Ydim, Xdim) ;
+	float DQVDTMST(time, lev, nf, Ydim, Xdim) ;
+	float PS(time, nf, Ydim, Xdim) ;
+	float REEVAPCN(time, lev, nf, Ydim, Xdim) ;
+	float REEVAPLSAN(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_nav_CSe.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float PLE(time, lev, nf, Ydim, Xdim) ;
+	float ZLE(time, lev, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_rad_CSv.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float CLOUD(time, lev, nf, Ydim, Xdim) ;
+	float DELP(time, lev, nf, Ydim, Xdim) ;
+	float PS(time, nf, Ydim, Xdim) ;
+
+ncdump -h MERRA2_c180.tavg1_3d_trb_CSe.20170101_0030z.nc4 | grep '[a-z]* [A-Z]*([^)]*) *;'
+	float KH(time, lev, nf, Ydim, Xdim) ;
+	float PLE(time, lev, nf, Ydim, Xdim) ;
